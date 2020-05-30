@@ -1,0 +1,19 @@
+-js binWebGL/test.js
+-cp src
+-lib dsHelper
+-lib fracs
+-lib justPath
+-lib trilateral3
+-lib trilateralBasic  
+-lib pallette
+-lib hxPolyK
+-lib poly2trihx 
+-lib hxGeomAlgo
+-lib kitGL
+-main TrilateralSVG
+-D js-flatten 
+-dce full
+--next
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><script src="test.js"></script></body></html>' >binWebGL/index.html
+# open html on mac os.
+-cmd open binWebGL/index.html

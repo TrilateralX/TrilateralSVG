@@ -1,2 +1,3 @@
 # TrilateralSVG
-example of SVG with Trilateral3
+example of plotting SVG in WebGL with trilateral3, uses trilateralBasic to hide details.
+[demo](https://trilateralx.github.io/TrilateralSVG/binWebGL/)

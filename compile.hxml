@@ -1,4 +1,4 @@
--js binWebGL/test.js
+-js test.js
 -cp src
 -lib dsHelper
 -lib fracs
@@ -14,6 +14,6 @@
 -D js-flatten 
 -dce full
 --next
--cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><script src="test.js"></script></body></html>' >binWebGL/index.html
+-cmd echo '<!DOCTYPE html><meta charset="UTF-8"><html><body><script src="test.js"></script></body></html>' >index.html
 # open html on mac os.
--cmd open binWebGL/index.html
+-cmd open index.html
